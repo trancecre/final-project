@@ -1,0 +1,65 @@
+@media screen and (max-width: $large){
+	$height: 75px;
+    /* responsive navigation */
+	
+	.btn-menu {
+		display: block;
+		background-color: $transparent-colour;
+		border: none;
+		font-size: 1.4rem;
+		color: $white-font-colour;
+		text-transform: uppercase;
+		float: right;
+		line-height: $height;
+		
+		&:focus {
+			outline: 1px solid rgba(255,255,255, 0.3);
+		}
+	}
+	
+	header nav {
+		display: none;
+		width: 100%;
+		float: none;
+		clear: both;
+		background-color: $nav-bg-colour;
+		
+		a {
+			float: none;
+			display: block;
+			line-height: 40px;
+			text-align: center;
+			width: 100%;
+		}
+	}
+	
+	.show header {
+		height: auto;
+		
+		nav {
+			display: block;
+		}
+	}
+	
+    /* top banner */
+	.top-banner {
+		padding: 10vw 0;
+		
+		h2 {
+			font-size: 7vw;
+		}
+		
+		p {
+			font-size: 3.5vw;
+		}
+	}
+	
+	.mid-banner h2 {
+		font-size: 7vw;
+	}
+	
+	.bottom-banner {
+		padding: 30px;
+	}
+	
+}

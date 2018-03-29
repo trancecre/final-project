@@ -1,0 +1,18 @@
+@media screen and (max-width: $medium){
+	$height: 70px;
+	header {
+		height: $height;
+		
+		h1 a {
+			line-height: $height;
+			font-size: 2.5rem;
+		}
+	}
+	
+	.btn-menu {
+		line-height: $height;
+		font-size: 1.2rem;
+	}
+	
+}
+ 

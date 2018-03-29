@@ -1,0 +1,21 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+
+	max-width: 90%;
+	background-color: $white-bg-colour;
+	padding: 0;
+}
+
+body {
+	@include body-font;
+	background-color: $body-bg-colour;
+	margin: 0;
+}
+
+h1, h2, h3, nav a {
+	@include heading-font;
+}

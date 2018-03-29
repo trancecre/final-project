@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COMP 1650 FINAL PROJECT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script src="scripts/script.js" defer="defer"></script>
+
+</head>    
+<body>
+
+    <header>
+        <div class="header-content-wrap container">
+          <h1>
+            <a href="/index.html">COMP 1950</a>
+          </h1>
+          <button class="btn-menu">Menu</button>
+          <nav>
+            <ul>
+              <li>
+                <a href="/index.html">Home</a>
+              </li>
+              <li>
+                <a href="/course.html">Course</a>
+              </li>
+              <li>
+                <a href="/lesson_index.html">Lessons</a>
+              </li>
+              <li>
+                <a href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    
+      </header>    
+  <div class="wrapper container"> 
+      		<div class="banner">
+      <img src="images/contactbanner.jpg" alt="banner">
+    </div>
+<main>    
+    <div class="contact">  
+      <form id="contact" action="" method="post">
+        <h3>Quick Contact</h3>
+        <h4>Contact us today, and get reply with in 24 hours!</h4>
+        <fieldset>       
+          <input class="required" placeholder="First name"  type="text" name="a">
+        </fieldset>
+        <fieldset>       
+            <input class="required" placeholder="Last name"  type="text" name="b">
+          </fieldset>
+        <fieldset>
+          <input class="required email" placeholder="Your Email Address" type="text" name="c">
+        </fieldset>
+        <fieldset>
+          <input class="required" placeholder="Your Student Number" type="text" name="d">
+        </fieldset> 
+        <fieldset>
+                      <input type="radio" name="radio student" value="male"> Prospective Student<br>          
+            <input type="radio" name="radio student" value="male"> Current Student<br>
+        </fieldset> 
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+</main>
+    
+    <footer>
+        <div class="row">
+          <div class="one-third column">
+            <h2>
+              <a href="#0">BCIT</a>
+            </h2>
+          </div>
+          <div class="one-third column">
+            <a href="/index.html" class="list">Home</a>
+            <a href="/course.html" class="list">Course</a>
+            <a href="/lesson_index.html" class="list">Lessons</a>
+            <a href="/contact.html" class="list">Contact</a>
+          </div>
+          <div class="one-third column">
+            <h2 class="contact">BCIT International Student Centre</h2>
+            <p>
+              <a>604-432-8816</a>
+            </p>
+            <p>
+              <a href="isc_info@bcit.ca"> isc_info@bcit.ca</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+<script src="scripts/menu.js"></script>
+
+</body>
+</html>

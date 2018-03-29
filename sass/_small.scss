@@ -1,0 +1,85 @@
+@media screen and (max-width: $small){
+	$padding: 20px;
+	section {
+		padding: $padding;
+	}
+	
+	header .container {
+		padding: 0 $padding;
+		
+	}
+
+	header{
+		h1 {
+			a{	
+							margin: 0;				
+				font-size:24px;
+				float: left;
+			}
+		}
+	}
+
+	.bottom-banner{
+
+
+display: none;
+
+	}
+
+	footer{
+		h2,p{
+
+			text-align: center
+
+		}
+	
+	.row .list{
+
+		text-align: center  !important;
+
+
+
+
+	}
+}
+	
+	
+	
+
+	.drop-down{
+
+		display:block
+	}
+
+	.navigation{
+
+		display: none;
+
+	}
+
+	body {
+		
+		
+		h1 {
+			font-size: 18px;
+		}
+		p{
+			font-size: 16px;
+		}
+	
+		
+	}
+
+
+
+main ul{
+
+display: block  !important;
+
+
+}
+
+
+	
+}
+

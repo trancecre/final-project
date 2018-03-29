@@ -1,0 +1,60 @@
+.bottom-banner {
+	background-color:$white-bg-colour;
+	padding: 0;
+	margin-bottom: -4px;
+	margin-top: 0;
+	
+	
+	p {
+		@include heading-font;
+		font-weight: bold;
+		font-size: 2.5rem;
+		text-align: center;
+		padding: 50px;
+	}
+	
+	a {
+		color: $white-font-colour;
+		display: block;
+		background-color: $nav-bg-colour;
+		padding: 0px 40px;
+		width: 200px;
+		font-size: 1.1rem;
+		font-weight: bold;
+		@include heading-font;
+		text-transform: uppercase;
+		margin: 0 auto;
+	}
+}
+
+.mid-banner {
+	position: relative;
+	
+	h2 {
+		color: $white-font-colour;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 4rem;
+	}
+}
+
+.top-banner {
+	padding: 70px 0;
+		position: relative;
+
+	
+	h2 {
+		font-size: 4rem;
+		text-align: center;
+		line-height: 1.2;
+	}
+	
+	p {
+		font-size: 2rem;
+		text-align: center;
+		line-height: 1.2;
+		margin: 0;
+	}
+}

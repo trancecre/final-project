@@ -1,0 +1,28 @@
+footer {
+	background-color: $nav-bg-colour;
+	color: $white-font-colour;
+	padding: 30px;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	   
+	.row{
+
+width: 100%;
+
+		.list{
+			display: block;
+			text-align: left;
+			margin: 15px 25px;
+		}
+	}
+
+	a {
+		color: $white-font-colour;
+		text-decoration: none;		
+		&:hover,
+		&:active,
+		&:focus {
+			color: $white-font-colour;
+		}
+	}
+}
