@@ -1,0 +1,61 @@
+// Colours
+$whitecolour: white;
+$blackcolour: black;
+$whitefont:rgba(255,255,255,0.7);
+$body-bg-colour: #8D99AE;
+$transparent-colour: transparent;
+$line-height: 70px;
+$white: #fff;
+$dwhite: #ddd;
+$ddark: #333;
+$transpwhite: rgba(255,255,255,0.95);
+$shadow: #4b4b4b;
+$gray: #999;
+$small: 400px;
+$medium: 560px;
+$large: 767px;
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	
+	to {
+		opacity: 1;
+	}
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-5%);
+	opacity: 0;
+    visibility: visible;
+  }
+
+  to {
+    transform: translatX(0);
+ 	opacity: 1;
+  }
+}
+@keyframes flpp {
+	0% {
+	  transform: rotateY(0deg);
+	}
+	50% {
+	  transform: rotateY(180deg);
+	}
+	100% {
+	  transform: rotateY(0deg);
+	}
+  }
+  @keyframes flpp {
+	0% {
+	  transform: rotateY(0deg);
+	}
+	50% {
+	  transform: rotateY(180deg);
+	}
+	100% {
+	  transform: rotateY(0deg);
+	}
+  }
+  
+  

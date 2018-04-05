@@ -1,0 +1,109 @@
+@media screen and (max-width: $large){
+	$height: 75px;
+	.top-banner {
+		padding: 10vw 0;
+		height: 20px;
+h2 {
+			font-size: 1.6rem;
+		}
+p {
+			font-size: 3.5vw;
+		}
+	}
+	
+	.mid-banner h2 {
+		font-size: 7vw;
+	}
+	
+
+	
+
+	.mid-banner .info-box img {
+		
+			max-height: 50%;
+			max-width: 50%;
+		
+}
+
+
+#cssmenu{display: block!important}
+
+#header-main{
+display: none;
+}
+
+.open-list{
+
+	display: none;
+	
+	}
+
+.click-list{
+
+display: block !important;
+
+}
+.one-half.column {
+    width: 100%;
+
+}
+
+section{
+	margin-top: 45px;
+	.slide{
+
+		display: none;
+	}
+	p{
+		text-align: center;
+	}
+
+h1 {
+	text-align: justify;
+	margin-bottom: 25px;
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 0.8rem;
+}
+}
+
+
+.top-banner {
+padding: 10px 0;
+
+h2{
+	padding: 5px;
+	font-size: 1.8rem;
+
+
+}
+}
+
+.main-header{
+
+	display: block !important;
+
+	 
+
+
+	}
+	
+	
+	
+	.foot{
+		font-size: 1.0rem;
+	}
+
+	fieldset{
+width: 87% !important;
+
+	}
+
+
+
+
+
+
+
+	
+}
